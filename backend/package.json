@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest  --verbose --runInBand",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Ville Korppi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.0",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.2.2"
+  }
+}
