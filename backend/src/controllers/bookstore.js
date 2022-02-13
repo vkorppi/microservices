@@ -4,27 +4,27 @@ const router = require('express').Router()
 
 router.get('/microservice1/', async (req, res) => {
 
-  res.status(200).json("microservice1 called")
+  res.status(200).json('{"name":"microservice1 called"}')
 })
 
 router.get('/microservice2/', async (req, res) => {
 
-  res.status(200).json("microservice2 called")
+  res.status(200).json('{"name":"microservice12 called"}')
 })
 
 router.get('/microservice3/', async (req, res) => {
 
-  res.status(200).json("microservice3 called")
+  res.status(200).json('{"name":"microservice3 called"}')
 })
 
 router.get('/microservice4/', async (req, res) => {
 
-  res.status(200).json("microservice4 called")
+  res.status(200).json('{"name":"microservice4 called"}')
 })
 
 router.get('/microservice5/', async (req, res) => {
 
-  res.status(200).json("microservice5 called")
+  res.status(200).json('{"name":"microservice5 called"}')
 })
 
 
